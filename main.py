@@ -92,7 +92,7 @@ def show_chat_ui():
     btn_add.pack()
 
     output = tk.Label(root, text="")
-    output.pack(side=tk.LEFT)
+    output.pack()
 
     show_key=tk.Label(root, text="APIキー: " + Key, font=("Arial", 10))
     show_key.pack(side=tk.BOTTOM)
