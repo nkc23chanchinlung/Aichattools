@@ -5,8 +5,7 @@ import tkinter as tk
 Key=""
 history = []
 Getkey=False
-  
-
+#APIキーを保存する関数
 
 def send_message():   
     user_input = entry.get()
